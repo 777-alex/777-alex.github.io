@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: freight-sans;
+}
+
+/*  */
+nav {
+  overflow: hidden;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: freight-sans-pro;
+  /* border: 1px solid; */
+}
+
+nav h1 {
+  color: #5BB7E4;
+  font-family: Helvetica;
+  font-size: .95em;
+  letter-spacing: 1.5px;
+  padding-left: 40px;
+}
+
+header h1 {
+  width: auto;
+  color: #6B6B6B;
+  text-align: center;
+  font-family: freight-sans-pro;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 20px 0px 20px 0px;
+  /* border: 1px solid; */
+}
+
+header p {
+  margin: 0 auto;
+  color: #808080;
+  text-align: center;
+  font-family: freight-sans-pro;
+  font-size: 1em;
+  font-weight: 400px;
+  float: center;
+  width: 65%;
+  padding: 20px 0px 20px 0px;
+  letter-spacing: .3px;
+  line-height: 1.5em;
+  /* border: 1px solid; */
+}
+
+nav a {
+  margin-left: 15px;
+  color: #bbbbbb;
+  text-align: center;
+  font-family: freight-sans-pro;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: .90em;
+  letter-spacing: .4px;
+}
+
+nav a:hover {
+  color: #494949
+}
+
+/*  */
+section {
+  height: auto;
+  width: auto;
+  /* margin: 0px 0px 200px 0px; */
+  /* border: 1px solid red; */
+}
+
+div a {
+  text-decoration: none;
+}
+
+div h3 {
+  z-index: 10;
+  color: white;
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .1em;
+  align-items: end;
+}
+
+figure {
+  width: auto;
+  overflow: hidden;
+  margin: 0;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  margin-top: 30px;
+}
+
+/*  */
+.pushright {
+  margin-left: 825px;
+}
+
+.textonwhite {
+  color: #000000;
+}
+
+.active {
+  color: #494949;
+}
+
+.hover:hover {
+  filter: brightness(70%);
+}
+
+.body-about {
+  margin: 30px 0px 100px 150px;
+  color: #808080;
+  text-align: left;
+  font-family: freight-sans-pro;
+  font-size: 1em;
+  font-weight: 600px;
+  float: left;
+  width: 37%;
+  min-width: 350px;
+  letter-spacing: .3px;
+  line-height: 1.5em;
+  /* border: 1px solid black; */
+}
+
+.picture-about{
+  margin: 30px 150px 0px 0px;
+  float: right;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
