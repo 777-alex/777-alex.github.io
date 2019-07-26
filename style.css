@@ -7,7 +7,10 @@ body {
   font-family: freight-sans;
 }
 
-/*  */
+
+
+
+/* Navigation */
 nav {
   overflow: hidden;
   height: 90px;
@@ -71,12 +74,13 @@ nav a:hover {
   color: #494949
 }
 
-/*  */
+
+
+
+/* Body */
 section {
   height: auto;
   width: auto;
-  /* margin: 0px 0px 200px 0px; */
-  /* border: 1px solid red; */
 }
 
 div a {
@@ -108,7 +112,10 @@ main {
   margin-top: 30px;
 }
 
-/*  */
+
+
+
+/* Classes */
 .pushright {
   margin-left: 825px;
 }
