@@ -176,8 +176,7 @@ strong{
   width:80%;
    max-width:1224px; /* real image width */
    position:absolute;
-   top:150px;
-   left:0;
+   top:150px;   left:0;
    right:0;
    bottom:0;
    margin:auto;
