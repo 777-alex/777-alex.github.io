@@ -69,8 +69,6 @@ nav a {
   /* border: 1px solid; */
 }
 
-
-
 nav a:hover {
   color: #494949
 }
@@ -99,36 +97,37 @@ figure img {
 
 main {
   margin-top: 30px;
+  height: auto;
 }
-
 
 /* image container */
 .overlay-image {
- position: relative;
- width: 100%;
+  position: relative;
+  width: 100%;
 }
+
 /* actual image image */
 .overlay-image .image {
- display: block;
- width: 100%;
- height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
+
 /* text overlay */
 .overlay-image .text {
- font-size: 1.6vw;
- font-family: freight-sans-pro, sans-serif;
- font-weight: 500;
- letter-spacing: .1em;
- text-align: left;
- position: absolute;
- top: 85%;
- left: 5%;
+  font-size: 1.6vw;
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-align: left;
+  position: absolute;
+  top: 85%;
+  left: 5%;
 }
 
-strong{
+strong {
   color: #808080;
 }
-
 
 /* Classes */
 .pushright {
@@ -172,12 +171,16 @@ strong{
   /* border: 1px solid black; */
 }
 
-.resume{
-  width:80%;
-   max-width:1224px; /* real image width */
-   position:absolute;
-   top:150px;   left:0;
-   right:0;
-   bottom:0;
-   margin:auto;
+.resume {
+  width: 80%;
+  height: auto;
+  max-width: 1224px;
+  /* real image width */
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: visible;
 }
