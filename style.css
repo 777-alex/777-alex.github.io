@@ -25,6 +25,7 @@ nav h1 {
   font-size: .95em;
   letter-spacing: 1.5px;
   padding-left: 40px;
+  border: 1px solid;
 }
 
 header h1 {
@@ -38,7 +39,6 @@ header h1 {
   font-weight: 600;
   letter-spacing: 1.5px;
   padding: 20px 0px 20px 0px;
-  /* border: 1px solid; */
 }
 
 header p {
@@ -66,7 +66,10 @@ nav a {
   font-weight: 300;
   font-size: .90em;
   letter-spacing: .4px;
+  border: 1px solid;
 }
+
+
 
 nav a:hover {
   color: #494949
@@ -98,6 +101,7 @@ main {
   margin-top: 30px;
 }
 
+
 /* image container */
 .overlay-image {
  position: relative;
@@ -128,6 +132,7 @@ strong{
 
 /* Classes */
 .pushright {
+  width: auto;
   margin-left: 825px;
 }
 
@@ -165,4 +170,15 @@ strong{
   width: 350px;
   border-radius: 50%;
   /* border: 1px solid black; */
+}
+
+.resume{
+  width:80%;
+   max-width:1224px; /* real image width */
+   position:absolute;
+   top:150px; 
+   left:0;
+   right:0;
+   bottom:0;
+   margin:auto;
 }
